@@ -1,0 +1,20 @@
+var random (chosen by the computer)
+1<random<100
+  1 <numbuser<100
+1<compteur<10
+comptrest=10-compteur
+
+
+IF RANDOM==numuser and compteur<=3 
+print f you are genius
+
+if RANDOM==number and compteur>10
+Printf congratulation
+
+if random=! and compteur =10
+YOU LOST
+
+if random==! and compteur<10  
+PRINT F (try again, conterest)
+
+

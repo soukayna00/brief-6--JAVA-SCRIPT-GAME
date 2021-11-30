@@ -1,0 +1,32 @@
+body{
+    background-image: url(/1.png);
+   }
+.guessGame{
+    background-color: #B7ACA4;
+  opacity: 97%;  
+}
+button{
+position: relative;
+background-color:#713D3A ;
+color: aliceblue;
+padding: 20px 20px 20px 20px;
+;
+}
+h1{
+    text-align: center;
+    margin-top: 250px;
+    color: #713D3A;
+    font-family: cursive;
+}
+h3{
+    text-align: center;
+    color: #4A4546;
+    font-family: cursive;
+}
+input{
+    display: flex;
+    margin-left: 370px;
+    color: gray;
+    padding: 10px 10px 10px 10px;
+    
+}

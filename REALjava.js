@@ -5,6 +5,7 @@ let number=[Math.floor(math.random()*100+1)]
 
 addEventListener('click',function(){
 let input = document.getElementById('userInput').value;
+
 if (input==number){
 output.innerHTML= 'you are a genius your number was $(number)'
 }else if(input<number){

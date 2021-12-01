@@ -1,31 +1,40 @@
 
 //identification
 
-Var random=document ;//Number chosen by the computer 
-Var userimput ;// value chosen by the user
-Var I;// compteur
-var comptrest=10-I// number of the attempts left to the user 
+var y = Math.floor(Math.random() * 100 + 1)  ;//Number chosen by the computer 
+var x ;// number chosen by the user
+var i=1;// compteur
+i++;
 
 
-1<random<100;
-1<userimput<100;
-1<I<100;
+
+
+// condition of the 
+
 {    
-    .getElementById("RANDOM").innerHTML = Math.random();
+    getElementById("RANDOM").innerHTML = Math.random();
    
-    for(RANDOM==numuser , compteur<=3 ) ;{
-        you are genius
+    if(x=y , i<=4 ) ;{
+      let  console.log( "you are genius")
     }
      
 
-     for(RANDOM==numuser , compteur>10 ) ;
-    Printf congratulation
+     else if (x= y , i<=9) ;{
+     let  
+    }
 
+     else (x!=y , i =10 ) ;{
+     let  
+    }
 
-     for(random=!numuser , compteur =10 ) ;
-     YOU LOST
-    
-    
+    else (x>y , i >10 ) ;{
+      let  (" try smaller number" "
+     }
+
+     else (x<y , i >10 ) ;{
+      let ( "try higher number "
+     
+  
     
 
 

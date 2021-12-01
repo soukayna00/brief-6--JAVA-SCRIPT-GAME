@@ -1,32 +1,24 @@
 body{
     background-image: url(/1.png);
    }
-.guessGame{
+#container{
     background-color: #B7ACA4;
-  opacity: 97%;  
-}
-button{
-position: relative;
-background-color:#713D3A ;
-color: aliceblue;
-padding: 20px 20px 20px 20px;
-;
-}
-h1{
+    opacity: 97%;  
+    border: 2px solid;
+    height: 275px;
+    width: 750px;
+    margin: auto;
     text-align: center;
-    margin-top: 250px;
-    color: #713D3A;
-    font-family: cursive;
 }
-h3{
-    text-align: center;
-    color: #4A4546;
-    font-family: cursive;
+p{
+ color: rgb(14, 13, 13);
+ font-size: 25px;
 }
-input{
-    display: flex;
-    margin-left: 370px;
-    color: gray;
-    padding: 10px 10px 10px 10px;
-    
+#input{
+width: 100px;
+margin: 25px auto;
+}
+
+#btn{
+    width: 25px auto auto 5px;
 }

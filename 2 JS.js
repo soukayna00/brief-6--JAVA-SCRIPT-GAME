@@ -3,7 +3,7 @@
 var y = Math.floor(Math.random() * 100 + 1);
       
    // initialistion du compteur 
-    var guess = 1;
+    var guess = 0;
     
       
     document.getElementById("submitguess").onclick = function(){
@@ -29,9 +29,13 @@ var y = Math.floor(Math.random() * 100 + 1);
    }
    else if( x=!y , guess=10 )
    {    
-       alert(`YOU lost your 10 attempt, restart the game `);
+       alert(`You lost your 10 attempt `);
+       // block le boutton submit 
+       document.getElementById("Button").disabled = true;
+       // refreshe la page pour recommencer le compteur
+       document.location.reload()
+       alert(`You can start again you number of guess is  ${guess} `);
       
-
 
    }
 }

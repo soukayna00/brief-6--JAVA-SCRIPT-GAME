@@ -1,6 +1,6 @@
-var random (chosen by the computer)
-1<random<100
-  1 <numbuser<100
+var y (chosen by the computer)
+1<y<100 
+  1 <x<100
 1<compteur<10
 comptrest=10-compteur
 
